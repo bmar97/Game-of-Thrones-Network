@@ -1,4 +1,3 @@
-
 # GAME OF THRONES
 ### NAMED ENTITY RECOGNITION NETWORK
 
@@ -17,8 +16,10 @@ To find the relationships between characters within the Game of Thrones Series w
 (3) Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters
 
 (4) Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
+![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvis_demo.png?raw=true)
 
-[Documentation](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/code/functions.py)
+
+[Documentation](https://github.com/bmar97/Game-of-Thrones-Network/blob/main/ETL_functions.ipynb)
 
 
 ##### **Demo**
@@ -28,6 +29,7 @@ Community detection methods are designed to locate communities based on network 
 - The Degree centrality of a node is simply its degree—the number of edges it has. The higher the degree, the more central the node is.
 - Betweenness centrality is a way of detecting the amount of influence a node has over the flow of information in a graph. It is often used to find nodes that serve as a bridge from one part of a graph to another.
 - Closeness centrality is a useful measure that estimates how fast the flow of information would be through a given node to other nodes. Closeness centrality measures how short the shortest paths are from node i to all nodes.
+![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvisCD_demo.png?raw=true)
 
 
 ##### **Demo**
@@ -45,7 +47,7 @@ Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_centrality.png?raw=true)
 
 ### Most Central Characters Over Time
-Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure over the course of all 5 books
+Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure of the course of all 5 books
 
 Degree Centrality - Most connected characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/degree_ovt.png?raw=true)
@@ -57,11 +59,8 @@ Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_ovt.png?raw=true)
 
 
-##### **Pyvis Book Series Demo**
+##### **Book Series Demo**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/main?labpath=Centrality_ovt.ipynb)
 ## Acknowledgements
 
  - In every measure of centrality [Jon Snow ](https://en.wikipedia.org/wiki/Jon_Snow_(character)) completes the series as the highest ranked character while [Sansa's](https://en.wikipedia.org/wiki/Sansa_Stark) importance weigned most acrros all measures. As an avid fan it is amusing to see the the ebbs and flows of some of my favorite characters' importance throughout the series reaffirm their value to the story. 
-
-
-
