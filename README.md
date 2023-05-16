@@ -38,25 +38,25 @@ Community detection methods are designed to locate communities based on network 
 ### A look at the data: Book1
 Now let's take the top 15 nodes for each measure of centrality to asses how balanced the book is relative to our measures
 
-Degree Centrality - Most connected characters
+**Degree Centrality** - Most connected characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/degree_centrality.png?raw=true)
 
-Betweenness Centrality - Most influential characters 
+**Betweenness Centrality** - Most influential characters 
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/betweenness_centrality.png?raw=true)
 
-Closeness Centrality - Most central characters
+**Closeness Centrality** - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_centrality.png?raw=true)
 
 ### Most Central Characters Over Time
 Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure of the course of all 5 books
 
-Degree Centrality - Most connected characters
+**Degree Centrality** - Most connected characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/degree_ovt.png?raw=true)
 
-Betweenness Centrality - Most influential characters 
+**Betweenness Centrality** - Most influential characters 
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/betweenness_ovt.png?raw=true)
 
-Closeness Centrality - Most central characters
+**Closeness Centrality** - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_ovt.png?raw=true)
 
 
