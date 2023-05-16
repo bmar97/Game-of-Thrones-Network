@@ -1,3 +1,4 @@
+
 # GAME OF THRONES
 ### NAMED ENTITY RECOGNITION NETWORK
 
@@ -7,15 +8,15 @@ Extract relationships between Game of Thrones Characters found from webScraping 
 ### ETL using Selenium webscraper
 To find the relationships between characters within the Game of Thrones Series we will build relationship dataframes for all 5 books and extract the communities within them.
 
-(1) We begin by cleaning our character list dataFrame found from scraping the official Game of Thrones characters [Wiki](https://en.wikipedia.org/wiki/List_of_Game_of_Thrones_characters). Making sure to adjust the first and last name's of characters to apropriate aliases and nicknames before parsing the [books](https://github.com/bmar97/Game-of-Thrones-Network/tree/main/data).
+1. We begin by cleaning our character list dataFrame found from scraping the official Game of Thrones characters [Wiki](https://en.wikipedia.org/wiki/List_of_Game_of_Thrones_characters). Making sure to adjust the first and last name's of characters to apropriate aliases and nicknames before parsing the [books](https://github.com/bmar97/Game-of-Thrones-Network/tree/main/data).
 - ("Samwell, Samwell Tarly --> Sam, Sam Tarly") 
 
-(2) Using Spacy, an open-source software library for advanced natural language processing, we obtain a list of entites per sentence in every book and store them in a dataframe. Then, filter out non-character entities:
+2. Using Spacy, an open-source software library for advanced natural language processing, we obtain a list of entites per sentence in every book and store them in a dataframe. Then, filter out non-character entities:
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/book_filter.png?raw=true)
 
-(3) Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters
+3. Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters
 
-(4) Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
+4. Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvis_demo.png?raw=true)
 
 
