@@ -27,10 +27,7 @@ To find the relationships between characters within the Game of Thrones Series w
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvis_demo.png?raw=true)
 
 
-[Documentation](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/code/functions.py)
-
-
-##### **Demo**
+### **Pyvis Demo**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/HEAD?labpath=Pyvis_Graph_Demo.ipynb)
 ### Community found through centrality 
 Community detection methods are designed to locate communities based on network structure, such as strongly connected groupings of nodes; however, they often ignore node properties. Due to this we introduce degree, betweeness, and closeness centrality measures.
@@ -40,7 +37,7 @@ Community detection methods are designed to locate communities based on network 
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvisCD_demo.png?raw=true)
 
 
-##### **Demo**
+### **Pyvis Demo**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/HEAD?labpath=Community_Detecion.ipynb)
 ### A look at the data: Book1
 Now let's take the top 15 nodes for each measure of centrality to asses how balanced the book is relative to our measures
@@ -67,8 +64,10 @@ Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_ovt.png?raw=true)
 
 
-##### **Book Series Demo**
+### **Pyvis Book Series Demo**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/main?labpath=Centrality_ovt.ipynb)
 ## Acknowledgements
 
  - In every measure of centrality [Jon Snow ](https://en.wikipedia.org/wiki/Jon_Snow_(character)) completes the series as the highest ranked character while [Sansa's](https://en.wikipedia.org/wiki/Sansa_Stark) importance weigned most acrros all measures. As an avid fan it is amusing to see the the ebbs and flows of some of my favorite characters' importance throughout the series reaffirm their value to the story. 
+
+[Documentation](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/code/functions.py)
