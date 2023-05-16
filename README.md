@@ -18,7 +18,7 @@ To find the relationships between characters within the Game of Thrones Series w
 
 (4) Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
 
-[Documentation](https://github.com/bmar97/Game-of-Thrones-Network/blob/main/ETL_functions.ipynb)
+[Documentation](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/code/functions.py)
 
 
 ##### **Demo**
