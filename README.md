@@ -15,7 +15,7 @@ To find the relationships between characters within the Game of Thrones Series w
 
 3. Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters
 | Source | Target | Value |
-| --- | --- | --- |
+| ------ | ------ | ----- |
 | Davos | Stannis | 302 |
 | Joffrey | Sansa | 294 |
 | Jon | Sam | 271 |
