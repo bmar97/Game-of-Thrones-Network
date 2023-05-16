@@ -61,7 +61,7 @@ Betweenness Centrality - Most influential characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/betweenness_ovt.png?raw=true)
 
 Closeness Centrality - Most central characters
-![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_ovt.png?raw=true)
+![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness00_ovt.png?raw=true)
 
 ### **Pyvis Book Series Demo**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/main?labpath=Centrality_ovt.ipynb)
