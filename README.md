@@ -13,19 +13,15 @@ To find the relationships between characters within the Game of Thrones Series w
 2. Using Spacy, an open-source software library for advanced natural language processing, we obtain a list of entites per sentence in every book and store them in a dataframe. Then, filter out non-character entities:
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/book_filter.png?raw=true)
 
-3. Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters
-| Source | Target | Value |
-| ------ | ------ | ----- |
+3. Create a relationship dictionary based on the dataframe containing lists of chracters per sentence and a 5 sentence window size. We then transform the newly created relationship dictionary into pd DF and find weight of each relationship for all characters:
+
+| Source| Target | Value |
+| :--- | :--- | :---: |
 | Davos | Stannis | 302 |
 | Joffrey | Sansa | 294 |
 | Jon | Sam | 271 |
 | Arya | Gendry | 229 |
 | Arya | Yordan | 218 |
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
 4. Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvis_demo.png?raw=true)
