@@ -64,4 +64,4 @@ Let's now take a look at the top 5 most cetnral characters with respect to each 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bmar97/Game-of-Thrones-NueralNet/main?labpath=Centrality_ovt.ipynb)
 ## Acknowledgements
 
- - In every measure of centrality [Jon Snow ](https://en.wikipedia.org/wiki/Jon_Snow_(character)) completes the series as the highest ranked character while [Sansa's](https://en.wikipedia.org/wiki/Sansa_Stark) importance weigned most acrros all measures. As an avid fan it is amusing to see the the ebbs and flows of some of my favorite characters' importance throughout the series reaffirm their value to the story. 
+ - In every measure of centrality [Jon Snow ](https://en.wikipedia.org/wiki/Jon_Snow_(character)) completes the series as the highest ranked character while [Sansa's](https://en.wikipedia.org/wiki/Sansa_Stark) importance weigned most acrros nearly all measures by the end. As an avid fan it is amusing to see the the ebbs and flows of some of my favorite characters' importance throughout the series reaffirm their value to the story. 
