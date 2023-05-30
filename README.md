@@ -23,7 +23,7 @@ To find the relationships between characters within the Game of Thrones Series w
 | Arya | Gendry | 229 |
 | Arya | Yordan | 218 |
 
-4. Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight 
+4. Using Pyvis, a python library that allows you to create interactive network graphs, we create a graph from a pandas dataframe and set node size to be indicitive of the relationship's assoicated weight. Each graph can be filtered by character name to see their surrounding communities
 ![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/pyvis_demo.png?raw=true)
 
 
