@@ -52,15 +52,17 @@ Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_centrality.png?raw=true)
 
 ### Most Central Characters Over Time
-Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure over the course of all 5 books
+Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure over the course of all 5 books 
+- 0 -> book 1
+- x,y axis: time, centrality measure
 
-Degree Centrality - Most connected characters (x axis)
+Degree Centrality - Most connected characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/degree_ovt.png?raw=true)
 
-Betweenness Centrality - Most influential characters (x axis)
+Betweenness Centrality - Most influential characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/betweenness_ovt.png?raw=true)
 
-Closeness Centrality - Most central characters (x axis)
+Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness00_ovt.png?raw=true)
 
 ### **Pyvis Book Series Demo**
