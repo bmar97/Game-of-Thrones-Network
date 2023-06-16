@@ -52,7 +52,7 @@ Closeness Centrality - Most central characters
 ![alt text](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/closeness_centrality.png?raw=true)
 
 ### Most Central Characters Over Time
-Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure over the course of all 5 books 
+Let's now take a look at the top 5 most cetnral characters with respect to each centrality measure from book1, (0,y), through book5, (4,y)
 - x axis: time
 - y axis: centrality measure
 
